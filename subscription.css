@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sbnWrapper {
+    background-color: black;
+    min-height: 100vh;
+}
+
+.sbnCardContainer {}
+
+.srow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+    align-items: center;
+    padding: 50px 0;
+}
+
+hr {
+    border-color: aliceblue;
+    width: 100%;
+}
+
+.scard {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3.8px);
+    height: auto;
+    margin: 30px;
+    width: 340px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 30px;
+    text-align: center;
+    transition: 0.7s ease-in-out;
+}
+
+.sOldPrice {
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.sDiscount {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100px;
+    padding: 3px;
+    font-weight: 700;
+}
+
+.sSubTitle {
+    font-size: smaller;
+}
+
+.sPrice {
+    font-size: xx-large;
+}
+
+.scard h5 {
+    display: flex;
+    width: 100%;
+}
+
+.sButton {
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 10px;
+    background-color: black;
+    border: 0px;
+    color: white;
+
+}
+
+.card1 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card2 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.card3 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sButton img {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.scard.card1:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 40px 5px #878787;
+}
+
+
+.focus {
+    transform: scale(1.07);
+    border: 2px solid #ffbe0a;
+}
+
+.scard.card2:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 40px 5px #ffbe0a;
+
+}
+
+
+
+.scard.card3:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 40px 5px #a04500;
+
+}
+
+.scard.card1:hover h3 {
+    color: #ccc7c7;
+}
+
+.scard.card2:hover h3 {
+    color: #ffbe0a
+}
+
+.scard.card3:hover h3 {
+    color: #ce6414
+}
+
+Button#sbtn1:hover {
+    background-color: #878787
+}
+
+Button#sbtn2:hover {
+    background-color: #c19723;
+}
+
+Button#sbtn3:hover {
+    background-color: #a04500
+}
+
+.scard.card1:hover {
+    border: 2px solid #878787;
+    background-color: rgba(230, 230, 230, 0.15);
+}
+
+.scard.card2:hover {
+    border: 2px solid#ffbe0a;
+    background-color: rgba(255, 204, 35, 0.15);
+
+}
+
+.scard.card3:hover {
+    border: 2px solid #a04500;
+    background-color: rgba(255, 143, 63, 0.15);
+
+}
+
+.scard li {
+    text-align: left;
+}
+
+@media screen and (min-width:1000px) and (max-width:1205px) {
+    .scard {
+        width: 25%;
+        /* transform: scale(0.9); */
+    }
+
+    .scard h3 {
+        font-size: large;
+    }
+
+    .scard h5 {
+        font-size: medium;
+    }
+
+    .scard li {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    .srow {
+        flex-direction: column;
+    }
+
+    .scard {
+        width: 50%;
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:700px) {
+    .srow {
+        flex-direction: column;
+    }
+
+    .scard {
+        width: 80%;
+        margin: 50px;
+
+    }
+}
