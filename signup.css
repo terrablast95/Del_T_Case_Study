@@ -1,0 +1,71 @@
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-md {
+  /* border: 1px solid black; */
+  width: 400px;
+  max-width: 400px;
+  height: auto;
+  /* padding: 20px;  */
+  /* background: #f1f1f1; */
+  z-index: 1;
+}
+.form-group {
+  margin-bottom: 20px; /* Space between form groups */
+}
+.form-check-input[type="checkbox"] {
+  width: 1em; /* Width of the checkbox */
+  height: 1em; /* Height of the checkbox */
+  /* left: 10px; */
+}
+.btn-primary {
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #28a745; /* Change to btn-success color on hover */
+  outline: #28a745;
+}
+.image-container {
+  width: 350px;
+  height: 100%;
+  position: fixed;
+  /* overflow:  hidden; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.image-container img {
+  width: 350px;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  /* float: right; */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-position: left;
+}
+@media (max-width: 1131px) {
+  .image-container img {
+    visibility: hidden;
+  }
+}
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
