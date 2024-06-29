@@ -161,6 +161,10 @@ Button#sbtn3:hover {
     text-align: left;
 }
 
+.scard.card3 {
+    border: 2px solid #a04500;
+}
+
 @media screen and (min-width:1000px) and (max-width:1205px) {
     .scard {
         width: 25%;
