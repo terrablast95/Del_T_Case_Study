@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cadetgrey;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: orchid;
+}
+.profile-info {
+    margin-bottom: 20px;
+}
+.profile-info h2 {
+    border-bottom: 2px solid rose;
+    padding-bottom: 5px;
+    color: rose;
+    margin-bottom: 10px;
+}
+.profile-info p {
+    margin: 0;
+}
+.purchase-history {
+    margin-bottom: 20px;
+}
+.purchase-history h2 {
+    border-bottom: 2px solid rose;
+    padding-bottom: 5px;
+    color: rose;
+    margin-bottom: 10px;
+}
+.purchase-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.purchase-history th, .purchase-history td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid cadetgrey;
+}
+.purchase-history th {
+    background-color: orchid;
+    color: white;
+}
+.preferences {
+    margin-bottom: 20px;
+}
+.preferences h2 {
+    border-bottom: 2px solid rose;
+    padding-bottom: 5px;
+    color: rose;
+    margin-bottom: 10px;
+}
+.preferences ul {
+    list-style-type: none;
+    padding: 0;
+}
+.preferences li {
+    margin-bottom: 5px;
+}
